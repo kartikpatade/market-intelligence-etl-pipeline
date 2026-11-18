@@ -1,0 +1,26 @@
+{
+  "formats": {
+    "CSV": {
+      "size_bytes": 486195,
+      "size_formatted": "474.80 KB",
+      "read_time_seconds": 0.0098,
+      "type": "Row-based / Text"
+    },
+    "JSON": {
+      "size_bytes": 1550462,
+      "size_formatted": "1514.12 KB",
+      "read_time_seconds": 0.01974,
+      "type": "Hierarchical / Text"
+    },
+    "Parquet": {
+      "size_bytes": 88445,
+      "size_formatted": "86.37 KB",
+      "read_time_seconds": 0.00485,
+      "type": "Columnar / Binary (Snappy)"
+    }
+  },
+  "summary": {
+    "storage_reduction_pct": 81.81,
+    "read_speedup_vs_csv": 2.02
+  }
+}
